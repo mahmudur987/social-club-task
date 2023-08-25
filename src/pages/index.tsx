@@ -3,9 +3,8 @@ import MessagePageLayout from "@/layout/MessagePageLayout";
 
 const Home = () => {
   return (
-    <main>
+    <main className="container mx-auto">
       <Header />
-
       <MessagePageLayout />
     </main>
   );

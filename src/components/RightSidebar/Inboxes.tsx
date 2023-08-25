@@ -64,6 +64,9 @@ const Inboxes = () => {
               <p className="font-bold"> {x.name}</p>
               <p className="text-sm"> {x.meaage}</p>
             </div>
+            <div className="flex flex-1 justify-end items-end">
+              <p className="font-semibold text-sm mr-2"> {i + 1} h</p>
+            </div>
           </div>
         ))}
       </div>
@@ -81,6 +84,9 @@ const Inboxes = () => {
             <div>
               <p className="font-bold"> {x.name}</p>
               <p className="text-sm"> {x.meaage}</p>
+            </div>
+            <div className="flex flex-1 justify-end items-end">
+              <p className="font-semibold text-sm mr-2"> {i + 1} h</p>
             </div>
           </div>
         ))}

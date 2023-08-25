@@ -10,8 +10,8 @@ import { AiOutlineRocket } from "react-icons/ai";
 
 const Header = () => {
   return (
-    <div className="navbar bg-base-100 flex justify-between gap-4">
-      {/* ?navbar startr */}
+    <div className="container navbar  flex justify-between gap-4">
+      {/* navbar startr */}
 
       <div className="w-72 flex justify-between items-center">
         <p className="flex items-center ">
@@ -30,7 +30,7 @@ const Header = () => {
         </p>
       </div>
 
-      {/* search bar */}
+      {/* navbar middle with  search bar */}
 
       <div className="flex-1">
         <div className=" ps-4 flex items-center  ">
@@ -40,6 +40,7 @@ const Header = () => {
           <input type="text" placeholder="Search" className="input border-0 " />
         </div>
       </div>
+
       {/* navbar end */}
 
       <div className="flex gap-8">
